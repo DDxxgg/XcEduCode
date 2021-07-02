@@ -9,4 +9,5 @@ out
 gen
 *.class
 \target
-rebel.xml
+*.rebel.xml
+*.rebel.xml.bak
