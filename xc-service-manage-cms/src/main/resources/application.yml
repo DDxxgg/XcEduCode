@@ -1,0 +1,17 @@
+server:
+  port: 31001
+spring:
+  application: xc-service-manage-cms
+  data:
+    mongodb:
+      uri: mongodb://192.168.25.128:27017
+      database: xc_cms
+  rabbitmq:
+    host: 192.168.25.128
+    port: 5672
+    username: guest
+    password: guest
+    virtualhost: /
+xuecheng:
+  mq:
+    exchange: exchange_of_cms_post_page
